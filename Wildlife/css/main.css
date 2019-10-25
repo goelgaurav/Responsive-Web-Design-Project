@@ -1,0 +1,643 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.65;
+    font-weight: 300;
+}
+
+#wrapper{
+    background-image: linear-gradient(rgba(109, 90, 10, 0.5), rgba(0, 0, 0, 0.5)), url("../images/main-bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+
+.logo{
+    float: left;
+    padding-left: 10em;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-top: -1em;
+}
+
+.org-name{
+    float: right;
+    display: inline-block;
+    color: #FFFFFD;
+    font-size: 1.2em;
+    opacity: 0.7;
+    margin-top: 4.5em;
+    margin-right: 14em;
+}
+
+p{
+    color: #180C02;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+nav{
+    position: relative;
+    overflow: hidden;
+    margin: 4em;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    
+   
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content:center;
+}
+
+nav li{
+    margin-right: 3em;
+}
+
+nav li a{
+     
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.image-banner{
+    font-size: 2.5em;
+    text-align: center;
+    color:white;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/img15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.image-about{
+    font-size: 2.5em;
+    text-align: center;
+    color:white;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/about-us1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+
+.image-banner-wildlife{
+    font-size: 2.5em;
+    text-align: center;
+    color:white;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/img6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.about-wrapper h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-wrapper p{
+    text-align: center;
+}
+
+.text-left{
+    position: absolute;
+    top:8px;
+    right:16px;
+}
+
+.text-bottom{
+    position: absolute;
+    bottom:8px;
+    right:16px;
+    color: black;
+    font-weight: 700;
+}
+
+.text-center{
+    position: absolute;
+    top:50px;
+    left: 30%;
+}
+
+.info-wrapper{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 253, 0.8);
+}
+
+.about-wrapper{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.info-heading{
+    padding-top: 4em;
+    text-align: center;
+}
+
+.info-heading  h1 , .info-block h2 {
+    color: rgb(226, 175, 10);
+}
+
+.info-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:2.9em;
+    height: 550px;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.1);
+}
+
+.img-1{
+    background-image: url(../images/img7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-2{
+    background-image: url(../images/img8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.block-sm{
+    height: 275px;
+    width: 340px;
+}
+
+.block-la{
+    height: 275px;
+    width: 500px;
+}
+
+.button-style1{
+    color: black;
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color:#F0D402;
+    border-radius: 15px;
+}
+
+button:hover {
+    
+    
+     background-color: rgb(226, 175, 10);
+    
+    
+}
+
+.button-style1:hover {
+    
+    background-color: rgb(226, 175, 10);
+
+}
+
+.block-center{
+    text-align: center;
+    padding: 2.5em;
+}
+
+#image-gallery{
+    position: relative;
+    height: 600px;
+    background-color: rgba(226, 175, 10, 0.8);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.img-gal1{
+    background-image:url(../images/img9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-gal2{
+    background-image:url(../images/img10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-gal3{
+    background-image:url(../images/img11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-gal4{
+    background-image:url(../images/img12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image-gallery > div{
+    position: absolute;
+    top: 3em;
+    bottom: 3em;
+    left:1.7em;
+    right:1.7em;
+    background-color: white;
+    height: 500px;
+    
+}
+
+#image-gallery h2{
+    text-align: center;
+    padding-top: 0.3em;
+    color: white;
+}
+
+.section-sub{
+    padding: 3em;
+    text-align: center;
+    background-color: rgba(240, 212, 2, 0.5);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+.section-sub > h1{
+    color: white;
+}
+
+.section-sub >input{
+    width: 400px;
+    border: none;
+    height: 35px;
+    border-radius: 15px 0 0 15px;
+}
+
+.section-sub > button{
+    color: black;
+    background-color:#F0D402;
+    height: 35px;
+    width: 150px;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    margin-left: -1em;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-wildlife{
+    background-image: url(../images/white-background.jpg);
+    height:200px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wildlife-intro{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.wildlife-info > p{
+    padding-left: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+.wildlife-header{
+    padding-left: 1em;
+}
+
+table {
+    background-color: rgba(226, 175, 10, 0.8);
+    border: 0px solid grey;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table img{
+    width: 70%;
+    height: auto;
+}
+
+thead{
+    background-color: #F0D402;
+    color: black;
+}
+
+table tr {
+  border: 0px solid #ccc;
+  padding: 6px;
+}
+
+ th,  td {
+  padding: 10px;
+  text-align: center;
+  
+}
+
+td:nth-child(2){
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+tr:nth-of-type(even){
+    background-color: rgba(255, 255, 253, 0.8);
+}
+
+table th {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.section-contact{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(226, 175, 10, 0.8);
+    color: #180C02;
+}
+
+.section-contact p{
+    color: #180C02;
+}
+
+.contact-form{
+    flex-grow: 2;
+    padding-left: 3em;
+    padding-top: 3em;
+}
+
+
+.contact-form input,textarea{
+    background-color:rgba(0, 0, 0, 0);
+    display: block;
+    margin-bottom: 2em;
+    width: 90%;
+    height: 40px;
+    border: 1px #180C02 solid;
+}
+
+::placeholder { 
+  color: white;
+    padding-left: 0.5em;
+    opacity: 1;
+}
+
+.contact-form button{
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: #F0D402;
+}
+
+textarea{
+    height: 150px;
+    resize: none;
+}
+
+.form-heading{
+    font-size: 2.5em;
+}
+
+.contact-info{
+    flex-grow: 1;
+    padding-left: 3em;
+    padding-top: 3em;
+}
+
+.contact-info h1,h2{
+    color: white;
+}
+
+
+.column1 {
+  float: left;
+  margin-right: 5%;
+  width: 47.5%;
+  padding: 10px;
+  height: 500px;
+  background-image: url(../images/reno.png);
+  background-repeat: no-repeat;
+}
+
+.column2 {
+  float: left;
+  width: 47.5%;
+  padding: 10px;
+  height: 500px; 
+  background-color: rgba(226, 175, 10, 0.8);
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*------------------------------------------------------ Style for Mobile device--------------------------------------------------------------*/
+
+@media only screen and (max-width:768px){
+    
+    #wrapper{
+        height: 100%;
+        width: 100%
+    }
+    
+    .logo{
+        width: 100%;
+        float: none;
+        display: block;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .org-name{
+        float: none;
+        display: block;
+        margin-top 1em;
+        text-align: center;
+        margin-right: 0px;
+    }
+    
+    nav{
+        width: 100%;
+    }
+    
+    nav ul {
+        flex-direction: column;
+       
+    }
+    
+    nav ul li{
+        text-align: center;
+    }
+    
+    .image-banner, .info-wrapper, #image-gallery,.section-sub,.image-banner-wildlife,.section-wildlife,table, .image-about,.section-contact{
+        width: 90%;
+    }
+    
+    .info-wrapper{
+        height: auto;
+        padding: 0px;
+    }
+    
+    .info-block{
+        flex-direction: column;
+        flex-flow: column;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .block-sm , .block-la{
+        display: block;
+        width:100%;
+    }
+    
+    #image-gallery > div >img{
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .section-sub input{
+        border-radius: 15px;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+    
+    .section-sub{
+        height: auto;
+    }
+    
+    .section-sub > button{
+        width: 100%;
+        border-radius: 15px;
+        margin-left: 0px;
+}
+    .section-wildlife{
+        height: auto;
+        padding-bottom: 1em;
+    }
+    
+    td{
+    display: block;
+    padding: 0.4em;
+    font-size: 0.9em;
+    padding-right: 1em;
+}
+    
+    table tr {
+    display: block;
+  }
+    thead{
+        display: none;
+    }
+    
+    .about-wrapper{
+        height: 100%;
+        width: 90%;
+        margin:0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .column1, .column2{
+        float: none;
+        width: 100%;
+    }
+    
+    .section-contact{
+        height: auto;
+    }
+    
+            
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
