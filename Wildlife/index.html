@@ -1,1 +1,105 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/main.css">
+        
+        
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <header>
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+                
+                <div class="org-name">
+                    <h1>Wildlife Coversatory since 1992</h1>
+                </div>
+                
+                <div class="clear"></div>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="wildlife.html">Wildlife</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="image-banner">
+                    <div class="text-left">Some text goes here</div>
+                </div>
+                
+                <div class="info-wrapper">
+                    <div class="info-heading">
+                        <h1>SED TEMPUS ALIQUAM</h1>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <div class="block-sm img-1">
+                    
+                        </div>
+                        
+                        <div class="block-la block-center">
+                            <h2>PELLENTESQUE FERMENTUM</h2>
+                            <p>Eed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est.</p>
+                            <button type="submit" class="button-style1">MORE</button>
+                        </div>
+                        
+                        <div class="block-sm block-center">
+                            <h2>ALIQUAM</h2>
+                            <p>Morbi in sem quis dui placerat ellentesque odio nisi euismod in haretra.</p>
+                            <button type="submit" class="button-style1">MORE</button>
+                        </div>
+                        
+                        <div class="block-la img-2">
+                        </div>
+                    </div>
+                </div>  <!-- info wrapper ends here-->
+                
+                <div id="image-gallery">
+                    <h2>PHOTO GALLERY</h2>
+                    <div class="img-gal1"></div>
+                    <div class="img-gal2"></div>
+                    <div class="img-gal3"></div>
+                    <div class="img-gal4"></div>
+                </div>
+                
+                <div class="section-sub">
+                    <h1>GET NOTIFIED</h1>
+                    <p>Morbi in sem quis dui placerat ellentesque odio nisi euismod in haretra</p>
+                    <input type="email" placeholder="Email adreess"/>
+                    <button type="submit">MORE</button>
+                </div>
+                
+            </main>
+            
+            <footer>
+                <h4>&copy; Untitled. All rights reserved.</h4>
+            </footer>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script>
+            $("#image-gallery > div:gt(0)").hide();
+
+            setInterval(function() { 
+              $('#image-gallery > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#image-gallery');
+            },  3000);
+        </script>
+    </body>
+</html>
